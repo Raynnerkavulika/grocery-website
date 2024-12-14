@@ -76,7 +76,7 @@ body{
 }
 
 html{
-    font-size: 50%;
+    font-size: 70%;
 }
 
 section{
@@ -101,28 +101,43 @@ section{
 }
 .form-container form h3{
     font-size: 2rem;
-    color: var(--green);
+    color: var(--black);
     margin-bottom: .8rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.form-container form h3 i{
+    color: var(--green);
+    margin-right: 1rem;
 }
 
 .form-container form{
-    width: 33rem;
+    width: 36rem;
     background-color: var(--white);
-    border: var(--border);
     border-radius: .5rem;
     padding: 2rem;
+    box-shadow: var(--box-shadow);
     text-align: center;
 }
 
 .form-container form .box{
     width: 100%;
     background-color: var(--light-bg);
-    padding: .7rem;
-    border: var(--border);
+    padding: 1.3rem;
     border-radius: .5rem;
     margin: .7rem 0;
     font-size: 1.4rem;
+}
+
+.form-container form span a{
+    color: var(--green);
+    margin: 1.2rem 0;
+    font-size: 1.6rem;
+    float: left;
+}
+
+.form-container form span a:hover{
+    text-decoration: underline;
 }
 
 .form-container form p{
