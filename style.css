@@ -255,11 +255,12 @@ section{
 }
 
 .dashboard .box-container .box{
-    border: var(--border);
+    /* border: var(--border); */
     border-radius: .5rem;
     background-color: var(--white);
     text-align: center;
     padding: 1rem;
+    box-shadow: var(--box-shadow);
 }
 
 .dashboard .box-container .box h3{
@@ -269,7 +270,7 @@ section{
 
 .dashboard .box-container .box p{
     font-size: 1.5rem;
-    border: var(--border);
+    /* border: var(--border); */
     border-radius: .5rem;
     padding: .8rem;
     margin: .8rem 0;
@@ -643,7 +644,7 @@ section{
 }
 
 .products .box-container .box{
-    border: var(--border);
+    /* border: var(--border); */
     width: 25rem;
     border-radius: .5rem;
     padding: 1rem;
@@ -670,7 +671,7 @@ section{
     right: 1rem;
     border-radius: .5rem;
     line-height: 2;
-    border: var(--border);
+    /* border: var(--border); */
     width: 4rem;
     height: 4rem;
     font-size: 1.8rem;
@@ -698,7 +699,7 @@ section{
 
 .products .box-container .box .qty{
     border-radius: .5rem;
-    border: var(--border);
+    /* border: var(--border); */
     padding: .7rem 1rem;
     background-color: var(--light-bg);
     width: 100%;

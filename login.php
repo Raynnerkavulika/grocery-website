@@ -65,7 +65,7 @@ if(isset($_POST['submit'])){
         <h3><i class="fas fa-smile"></i>welcome back!</h3>
         <input type= "email" name= "email" placeholder="enter your email" required class="box">
         <input type="password" name="password" placeholder="enter your password" required class="box">
-        <span><a href="password_reset.php">Forgot password?</a></span>
+        <span><a href="forgot_password.php">Forgot password?</a></span>
         <input type="submit" name="submit" value="login now" required class="btn">
         <p>don't have an account? <a href="register.php">register now</a></p>
     </form>
