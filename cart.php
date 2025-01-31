@@ -27,6 +27,7 @@ if(!isset($user_id)){
       
 </head>
 <body>
+    
     <!-- admin header begins -->
     <?php include 'header.php';?>
     <!-- admin header ends -->
