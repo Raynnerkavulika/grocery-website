@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".delete-item").forEach(btn => {
         btn.addEventListener("click" , function (e)){
             e.preventDefault();
-            
+            let cartId = this.dataset.id;
+
+            if()
         }
     })
 })
